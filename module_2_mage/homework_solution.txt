@@ -1,0 +1,15 @@
+https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-10.csv.gz,
+https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-11.csv.gz,
+https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2020-12.csv.gz
+
+1. 266855 rows x 20 columns
+
+2. 139,370 rows
+
+3. data['lpep_pickup_date'] = data['lpep_pickup_datetime'].dt.date
+
+4. 1 or 2
+
+5. 4
+
+6. 96
