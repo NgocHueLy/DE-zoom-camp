@@ -1,1 +1,16 @@
-Homework 3 solutions
+# Homework 3 solutions
+
+Load 2022 green taxi data from: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+to Google Cloud Storage and to BigQuery using Mage.
+
+Mage blocks:
+- get_green_taxi_2022_data_parquet.py: get data from the link
+- transform_green_taxi_2022.py: get date from column lpep_pickup_datetime, for creating partitoned table
+- load_green_taaxi_2022_to_bigquery.py: load data to BigQuery
+- load_green_taxi_2022_to_gcs.py: load data to GCS for later creating external table in BigQuery
+
+Take a quick look on data via Jupyter Notebook before using Mage:
+- check_green_taxi_dtype.ipynb
+
+SQL Query for homework solutions:
+- homework_solutions.sql
