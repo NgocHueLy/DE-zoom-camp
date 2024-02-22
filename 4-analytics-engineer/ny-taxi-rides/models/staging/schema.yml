@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dtc-de-course-412502
+    schema: ny_taxi
+
+    tables:
+      - name: green_taxi_all
+      - name: yellow_taxi_all
