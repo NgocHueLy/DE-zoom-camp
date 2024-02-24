@@ -8,6 +8,7 @@ sources:
     tables:
       - name: green_taxi_all
       - name: yellow_taxi_all
+      - name: fhv
 
 models:
   - name: stg_green_tripdata
